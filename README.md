@@ -18,3 +18,6 @@
 <p>-install (dir)</p>
 <p>--driverX (dir)</p>
 <p>---driver files (inf files, sys, etc)</p>
+
+<h3>Credits</h3>
+<p>Bwenfwake - Editing my horrific photo of my Pro X and making it look nice for the installer <3</p>
