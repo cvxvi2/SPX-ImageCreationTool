@@ -21,3 +21,4 @@
 
 <h3>Credits</h3>
 <p>Bwenfwake - Editing my horrific photo of my Pro X and making it look nice for the installer <3</p>
+<p>Scelli - Ty for making the tick icon based on the existing No Entry icon :)</p>
