@@ -28,6 +28,18 @@
         End Try
     End Function
 
+    Function createDir(ByVal dir As String)
+        Try
+            My.Computer.FileSystem.CreateDirectory(dir)
+            If checkForDir(dir) = True Then
+                Return True
+            Else
+                Return False
 
+            End If
+        Catch ex As Exception
+            Return False
+        End Try
+    End Function
 
 End Module

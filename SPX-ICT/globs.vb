@@ -4,6 +4,10 @@
     Public ReadOnly credits As String = "Cobs - Programming & Design, Bwenfwake - Images, Deinsti - Testing"
 
 
+    'SPX-ICT
+    Public useDarkMode As Boolean = False
+
+
     'Drivers tab
     Public IsBMRbeingUsed As Boolean = False
     Public BMRType As String = "ZIP"
@@ -25,7 +29,7 @@
     Public defaultBootWimIndex As Object = bootWimIndex1 'Only to be used if above is false
     Public bootWimIndex1 As Integer = 1
     Public bootWimIndex2 As Integer = 2
-
+    Public InstallationIndex
 
     'Optional
     Public useBuiltInZIPExtractor As Boolean = True
@@ -38,6 +42,12 @@
     Public dismLocation As String = ""
     Public cmdLocation As String = ""
 
+    'workingdir
+    Public basepath = "c:\spx-ict" 'we want this short and basic for use with DISM.
 
+    'surface type
+    Public surfaceType As String = "sq1"
+    Public knownHashes = {"B004CCCDC97D52C747357C34A782F3E8", ""}
+    Public knownFiles = {"SurfaceProX_SQ1_2019_Win10_20H2_BMR_172_130.228.3.zip", ""}
 
 End Module

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Advanced_Mode
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Advanced_Mode
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -28,19 +28,26 @@ Partial Class Advanced_Mode
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -51,28 +58,27 @@ Partial Class Advanced_Mode
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.Button9 = New System.Windows.Forms.Button()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.validationstatus = New System.Windows.Forms.TextBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.TabPage3.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage4.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label2
@@ -128,6 +134,7 @@ Partial Class Advanced_Mode
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.Color.White
+        Me.TabPage1.Controls.Add(Me.GroupBox5)
         Me.TabPage1.Controls.Add(Me.GroupBox2)
         Me.TabPage1.Controls.Add(Me.GroupBox1)
         Me.TabPage1.Controls.Add(Me.RadioButton2)
@@ -140,107 +147,64 @@ Partial Class Advanced_Mode
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Drivers"
         '
-        'TabPage2
+        'GroupBox5
         '
-        Me.TabPage2.BackColor = System.Drawing.Color.White
-        Me.TabPage2.Controls.Add(Me.GroupBox3)
-        Me.TabPage2.Controls.Add(Me.GroupBox4)
-        Me.TabPage2.Controls.Add(Me.RadioButton3)
-        Me.TabPage2.Controls.Add(Me.RadioButton4)
-        Me.TabPage2.Controls.Add(Me.Label7)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(699, 473)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Installation Media"
+        Me.GroupBox5.Controls.Add(Me.RadioButton7)
+        Me.GroupBox5.Controls.Add(Me.RadioButton5)
+        Me.GroupBox5.Controls.Add(Me.RadioButton6)
+        Me.GroupBox5.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.GroupBox5.Location = New System.Drawing.Point(25, 351)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(634, 111)
+        Me.GroupBox5.TabIndex = 18
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Extraction Options"
         '
-        'Label1
+        'RadioButton7
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.White
-        Me.Label1.Font = New System.Drawing.Font("Calibri", 18.0!, System.Drawing.FontStyle.Bold)
-        Me.Label1.Location = New System.Drawing.Point(20, 15)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(446, 29)
-        Me.Label1.TabIndex = 13
-        Me.Label1.Text = "Choose how you want to install the drivers:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.RadioButton7.AutoSize = True
+        Me.RadioButton7.Font = New System.Drawing.Font("Calibri", 15.0!)
+        Me.RadioButton7.Location = New System.Drawing.Point(39, 76)
+        Me.RadioButton7.Name = "RadioButton7"
+        Me.RadioButton7.Size = New System.Drawing.Size(191, 28)
+        Me.RadioButton7.TabIndex = 5
+        Me.RadioButton7.Text = "Use 7-Zip to extract"
+        Me.RadioButton7.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'RadioButton5
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Font = New System.Drawing.Font("Calibri", 15.0!)
-        Me.RadioButton1.Location = New System.Drawing.Point(25, 60)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(428, 28)
-        Me.RadioButton1.TabIndex = 14
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Extract the drivers from a recovery image (BMR)"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.RadioButton5.AutoSize = True
+        Me.RadioButton5.Checked = True
+        Me.RadioButton5.Font = New System.Drawing.Font("Calibri", 15.0!)
+        Me.RadioButton5.Location = New System.Drawing.Point(39, 19)
+        Me.RadioButton5.Name = "RadioButton5"
+        Me.RadioButton5.Size = New System.Drawing.Size(282, 28)
+        Me.RadioButton5.TabIndex = 3
+        Me.RadioButton5.TabStop = True
+        Me.RadioButton5.Text = "Use built-in extractor (default)"
+        Me.RadioButton5.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'RadioButton6
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Font = New System.Drawing.Font("Calibri", 15.0!)
-        Me.RadioButton2.Location = New System.Drawing.Point(25, 268)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(269, 28)
-        Me.RadioButton2.TabIndex = 15
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "I have the drivers in a ZIP file"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.Button4)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Location = New System.Drawing.Point(25, 94)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(634, 168)
-        Me.GroupBox1.TabIndex = 16
-        Me.GroupBox1.TabStop = False
+        Me.RadioButton6.AutoSize = True
+        Me.RadioButton6.Font = New System.Drawing.Font("Calibri", 15.0!)
+        Me.RadioButton6.Location = New System.Drawing.Point(39, 48)
+        Me.RadioButton6.Name = "RadioButton6"
+        Me.RadioButton6.Size = New System.Drawing.Size(242, 28)
+        Me.RadioButton6.TabIndex = 4
+        Me.RadioButton6.Text = "Use PowerShell to extract"
+        Me.RadioButton6.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.Button5)
         Me.GroupBox2.Controls.Add(Me.TextBox2)
         Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Location = New System.Drawing.Point(25, 299)
+        Me.GroupBox2.Location = New System.Drawing.Point(25, 258)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(634, 168)
+        Me.GroupBox2.Size = New System.Drawing.Size(634, 87)
         Me.GroupBox2.TabIndex = 17
         Me.GroupBox2.TabStop = False
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.Label3.Location = New System.Drawing.Point(7, 20)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(213, 19)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Select your ISO or BMR ZIP File:"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.TextBox1.Location = New System.Drawing.Point(11, 43)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(531, 27)
-        Me.TextBox1.TabIndex = 1
-        '
-        'Button4
-        '
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(530, 43)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(98, 27)
-        Me.Button4.TabIndex = 2
-        Me.Button4.Text = "Browse..."
-        Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
@@ -272,6 +236,98 @@ Partial Class Advanced_Mode
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Select your ZIP File:"
         '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.validationstatus)
+        Me.GroupBox1.Controls.Add(Me.Button4)
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Location = New System.Drawing.Point(25, 94)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(634, 127)
+        Me.GroupBox1.TabIndex = 16
+        Me.GroupBox1.TabStop = False
+        '
+        'Button4
+        '
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Location = New System.Drawing.Point(530, 43)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(98, 27)
+        Me.Button4.TabIndex = 2
+        Me.Button4.Text = "Browse..."
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.TextBox1.Location = New System.Drawing.Point(11, 43)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(531, 27)
+        Me.TextBox1.TabIndex = 1
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.Label3.Location = New System.Drawing.Point(7, 20)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(170, 19)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "Select your BMR ZIP File:"
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Font = New System.Drawing.Font("Calibri", 15.0!)
+        Me.RadioButton2.Location = New System.Drawing.Point(25, 227)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(269, 28)
+        Me.RadioButton2.TabIndex = 15
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "I have the drivers in a ZIP file"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Font = New System.Drawing.Font("Calibri", 15.0!)
+        Me.RadioButton1.Location = New System.Drawing.Point(25, 60)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(428, 28)
+        Me.RadioButton1.TabIndex = 14
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Extract the drivers from a recovery image (BMR)"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.White
+        Me.Label1.Font = New System.Drawing.Font("Calibri", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.Label1.Location = New System.Drawing.Point(20, 15)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(446, 29)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = "Choose how you want to install the drivers:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'TabPage2
+        '
+        Me.TabPage2.BackColor = System.Drawing.Color.White
+        Me.TabPage2.Controls.Add(Me.GroupBox3)
+        Me.TabPage2.Controls.Add(Me.GroupBox4)
+        Me.TabPage2.Controls.Add(Me.RadioButton3)
+        Me.TabPage2.Controls.Add(Me.RadioButton4)
+        Me.TabPage2.Controls.Add(Me.Label7)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(699, 473)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Installation Media"
+        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.Button8)
@@ -285,6 +341,36 @@ Partial Class Advanced_Mode
         Me.GroupBox3.Size = New System.Drawing.Size(634, 141)
         Me.GroupBox3.TabIndex = 22
         Me.GroupBox3.TabStop = False
+        '
+        'Button8
+        '
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Location = New System.Drawing.Point(530, 95)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(98, 27)
+        Me.Button8.TabIndex = 8
+        Me.Button8.Text = "Browse..."
+        Me.Button8.UseVisualStyleBackColor = True
+        '
+        'TextBox5
+        '
+        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox5.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.TextBox5.Location = New System.Drawing.Point(11, 95)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.ReadOnly = True
+        Me.TextBox5.Size = New System.Drawing.Size(531, 27)
+        Me.TextBox5.TabIndex = 7
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.Label8.Location = New System.Drawing.Point(7, 72)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(185, 19)
+        Me.Label8.TabIndex = 6
+        Me.Label8.Text = "Select your install.wim File:"
         '
         'Button6
         '
@@ -392,36 +478,6 @@ Partial Class Advanced_Mode
         Me.Label7.TabIndex = 18
         Me.Label7.Text = "Select your installation image:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'Button8
-        '
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(530, 95)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(98, 27)
-        Me.Button8.TabIndex = 8
-        Me.Button8.Text = "Browse..."
-        Me.Button8.UseVisualStyleBackColor = True
-        '
-        'TextBox5
-        '
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox5.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.TextBox5.Location = New System.Drawing.Point(11, 95)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.ReadOnly = True
-        Me.TextBox5.Size = New System.Drawing.Size(531, 27)
-        Me.TextBox5.TabIndex = 7
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.Label8.Location = New System.Drawing.Point(7, 72)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(185, 19)
-        Me.Label8.TabIndex = 6
-        Me.Label8.Text = "Select your install.wim File:"
-        '
         'TabPage3
         '
         Me.TabPage3.Controls.Add(Me.ComboBox1)
@@ -436,16 +492,26 @@ Partial Class Advanced_Mode
         Me.TabPage3.Text = "Index"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'Label9
+        'ComboBox1
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.Color.White
-        Me.Label9.Font = New System.Drawing.Font("Calibri", 18.0!, System.Drawing.FontStyle.Bold)
-        Me.Label9.Location = New System.Drawing.Point(6, 3)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(132, 29)
-        Me.Label9.TabIndex = 19
-        Me.Label9.Text = "Select Index"
+        Me.ComboBox1.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(85, 135)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 27)
+        Me.ComboBox1.TabIndex = 22
+        Me.ComboBox1.Text = "1"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.White
+        Me.Label11.Font = New System.Drawing.Font("Calibri", 18.0!)
+        Me.Label11.Location = New System.Drawing.Point(6, 131)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(73, 29)
+        Me.Label11.TabIndex = 21
+        Me.Label11.Text = "Index:"
         '
         'Label10
         '
@@ -459,40 +525,16 @@ Partial Class Advanced_Mode
     "h as Windows 10/11 Home, Pro, Enterprise and N variants, you can change the inde" &
     "x below."
         '
-        'Label11
+        'Label9
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.BackColor = System.Drawing.Color.White
-        Me.Label11.Font = New System.Drawing.Font("Calibri", 18.0!)
-        Me.Label11.Location = New System.Drawing.Point(6, 131)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(73, 29)
-        Me.Label11.TabIndex = 21
-        Me.Label11.Text = "Index:"
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(85, 135)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 27)
-        Me.ComboBox1.TabIndex = 22
-        Me.ComboBox1.Text = "1"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.White
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Location = New System.Drawing.Point(-11, -12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(749, 80)
-        Me.PictureBox1.TabIndex = 8
-        Me.PictureBox1.TabStop = False
-        '
-        'OpenFileDialog1
-        '
-        Me.OpenFileDialog1.Filter = """ISO Files|*.iso"""
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.White
+        Me.Label9.Font = New System.Drawing.Font("Calibri", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.Label9.Location = New System.Drawing.Point(6, 3)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(132, 29)
+        Me.Label9.TabIndex = 19
+        Me.Label9.Text = "Select Index"
         '
         'TabPage4
         '
@@ -514,6 +556,32 @@ Partial Class Advanced_Mode
         Me.Button9.Text = "Clean working directory"
         Me.Button9.UseVisualStyleBackColor = True
         '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.Filter = """ISO Files|*.iso"""
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.White
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox1.Location = New System.Drawing.Point(-11, -12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(749, 80)
+        Me.PictureBox1.TabIndex = 8
+        Me.PictureBox1.TabStop = False
+        '
+        'validationstatus
+        '
+        Me.validationstatus.BackColor = System.Drawing.Color.White
+        Me.validationstatus.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.validationstatus.Location = New System.Drawing.Point(11, 77)
+        Me.validationstatus.Multiline = True
+        Me.validationstatus.Name = "validationstatus"
+        Me.validationstatus.ReadOnly = True
+        Me.validationstatus.Size = New System.Drawing.Size(517, 44)
+        Me.validationstatus.TabIndex = 3
+        Me.validationstatus.Text = "Not validated"
+        '
         'Advanced_Mode
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -533,20 +601,22 @@ Partial Class Advanced_Mode
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
-        Me.TabPage2.ResumeLayout(False)
-        Me.TabPage2.PerformLayout()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
         Me.TabPage3.ResumeLayout(False)
         Me.TabPage3.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage4.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -593,4 +663,9 @@ Partial Class Advanced_Mode
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents TabPage4 As TabPage
     Friend WithEvents Button9 As Button
+    Friend WithEvents RadioButton7 As RadioButton
+    Friend WithEvents RadioButton6 As RadioButton
+    Friend WithEvents RadioButton5 As RadioButton
+    Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents validationstatus As TextBox
 End Class

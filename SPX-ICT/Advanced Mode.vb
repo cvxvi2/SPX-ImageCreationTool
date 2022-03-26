@@ -45,8 +45,32 @@
         For i = 0 To 15
             ComboBox1.Items.Add(i.ToString)
         Next
+        If powerShellLocation = "" Then
+            RadioButton6.Enabled = False
+        End If
+        If sevenzipLocation = "" Then
+            RadioButton7.Enabled = False
+        End If
     End Sub
 
+    Sub extractSwitchBox(ByVal app As String)
+        Select Case app
+            Case "default"
+                globs.useBuiltInZIPExtractor = True
+                globs.use7ZipToExtractZip = False
+                globs.usePowerShellToExtractZIP = False
+            Case "7zip"
+                globs.useBuiltInZIPExtractor = False
+                globs.use7ZipToExtractZip = True
+                globs.usePowerShellToExtractZIP = False
+            Case "powershell"
+                globs.useBuiltInZIPExtractor = False
+                globs.use7ZipToExtractZip = False
+                globs.usePowerShellToExtractZIP = True
+            Case Else
+                extractSwitchBox("default")
+        End Select
+    End Sub
 
 
     Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
@@ -90,10 +114,39 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        TextBox1.Text = ofdReturn("ISO Files|*.iso|BMR Files|*.bmr|ZIP Files|*.zip", "Select ISO or BMR Image")
+        TextBox1.Text = ofdReturn("BMR ZIP Files|*.zip", "Select BMR Image")
+        If TextBox1.Text = Nothing Then
+        Else
+            Dim ab = MsgBox("Do you want to validate this file to check its integrity?" & Environment.NewLine & "This may take a moment.", vbYesNoCancel, "Validate MD5 Hash?")
+            If ab = vbYes Then
+                Dim rs = visibleMD5(TextBox1.Text) : Dim validatedImage As Boolean = False
+                For i = 0 To knownHashes.length - 1
+                    If rs = knownHashes(i).ToString Then
+                        validationstatus.Text = "Valid BMR image detected: " & Environment.NewLine & "Original File Name: " & knownFiles(i).ToString & Environment.NewLine & "MD5 Hash: " & knownHashes(i)
+                        validatedImage = True
+                    End If
+                Next
+                If validatedImage = False Then
+                    validationstatus.Text = "Image not recognised as original BMR." & Environment.NewLine & "Returned MD5 Hash: " & rs.ToString
+                End If
+
+            End If
+        End If
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         TextBox2.Text = ofdReturn("ZIP Files|*.zip", "Select Installation Image")
+    End Sub
+
+    Private Sub RadioButton7_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton7.CheckedChanged
+        extractSwitchBox("7zip")
+    End Sub
+
+    Private Sub RadioButton5_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton5.CheckedChanged
+        extractSwitchBox("default")
+    End Sub
+
+    Private Sub RadioButton6_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton6.CheckedChanged
+        extractSwitchBox("powershell")
     End Sub
 End Class
