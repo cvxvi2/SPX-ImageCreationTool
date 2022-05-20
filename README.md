@@ -1,4 +1,5 @@
 # SPX-ImageCreationTool
+!!! CURRENTLY NON FUNCTIONAL, THIS IS A WORK IN PROGRESS AND DOES NOTHING AS OF YET !!!
 <b>Cobs Surface Pro X Image Creation Tool</b>
 
 <p>This tool is still in development and as of now, does not work and is in design stages</p>
